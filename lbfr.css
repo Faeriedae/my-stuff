@@ -1,12 +1,13 @@
 @import url("http://www.smackjeeves.com/templates/default/default_jumpbox.css");
-
+@import url(http://fonts.googleapis.com/css?family=Sigmar+One);
 body
 {
 	font-family: verdana, helvetica, arial, sans-serif;
 	font-size: 80%;
 	margin: 0;
 	padding: 0;
-	background-color : #0080ff;
+	background-color : #000000;
+	background-image: url("http://nullprogram.com/img/hypernova/starfield.gif");
 	color: white;	
 }
 
@@ -47,7 +48,7 @@ h3 {
 
 a:link, a:visited
 {
-	color: #0000FF;
+	color: #000066;
 	font-weight: bold;
 	text-decoration: none;
 }
@@ -83,6 +84,8 @@ a img
 #comic-header
 {
 	height: 30px;
+	margin-bottom: 5px
+
 }
 
 #comic-header #rating
@@ -90,6 +93,7 @@ a img
 	display: block;
 	float: left;
 	font-weight: bold;
+	
 }
 
 #comic-header #rating img
@@ -137,8 +141,7 @@ a img
 .comicnav
 {
 	background-color: #000066;
-	border-top: 1px solid #000;
-	border-bottom: 1px solid #000;
+	border: 2px outset #000000;
 	margin: 5px;
 	padding:5px;
 }
@@ -168,6 +171,7 @@ a img
 	padding-left: 8px;
 	padding-right: 8px;
 	width: 100%;
+
 }
 
 #comments_container h1
@@ -195,8 +199,7 @@ a img
 
 #comments_container .cpost-header
 {
-	border: 2px solid #000;
-	background: #000066;
+	border-bottom: 2px solid #000000;
 	color: #0080ff
 	padding: 5px;
 	margin: 0;
@@ -233,22 +236,30 @@ a img
 
 #menu
 {
-	margin: 0 0 10px 0;
-	padding: 4px 0 0;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 4px 2px 2px;
+	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
 #menu ul
 {
+	list-style-type: none;
 	margin: 0;
 	padding: 0;
 }
 
 #menu li
 {
-	padding: 5px 0 0 0;
+	padding: 0 0 0 0;
 	display: block;
 	list-style-type: none;
 	zoom: 1;
+	float: left;
+	margin-left: auto;
+	margin-right:auto;
 }
 
 #menu a:link, #menu a:visited
@@ -256,17 +267,20 @@ a img
 	font-size: .9em;
 	font-weight: bold;
 	text-decoration: none;
-	border: 1px solid black;
+	border: 4px ridge #0000CC;
+	border-bottom: 0px none #0080ff;
 	color: #fff;
 	padding: 5px;
 	display: block;
-	background-color: #006;
+	background-color: #0080ff;
 	white-space: nowrap;
+	width: 80px;
+	margin: 5px;
 }
 
 #menu a:hover
 {
-	background-color: #00c;
+	background-color: #006;
 }
 
 /* Posts
