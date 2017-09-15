@@ -1,0 +1,412 @@
+@import url("http://www.smackjeeves.com/templates/default/default_jumpbox.css");
+@import url(http://fonts.googleapis.com/css?family=Sigmar+One);
+body
+{
+	font-family: verdana, helvetica, arial, sans-serif;
+	font-size: 80%;
+	margin: 0;
+	padding: 0;
+	background-color : #000000;
+	background-image: url("http://nullprogram.com/img/hypernova/starfield.gif");
+	color: white;	
+}
+
+.tbl1 
+{ 
+background: url('back.jpg'); 
+background-repeat: no-repeat; 
+} 
+
+p,h1,h2,h3,main
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 85%;
+	color: white;
+	margin: 10px;
+	padding: 0;
+}
+
+
+h1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 200%;
+	font-weight: bold;
+}
+
+h2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 160%;
+	font-weight: bold;
+}
+
+
+h3 {
+
+	font-size: 110%;
+	
+}
+
+a:link, a:visited
+{
+	color: #000066;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+a img
+{
+	border: 0;
+}
+
+
+
+/* Comics
+----------------------------------------------- */
+#comic-container
+{
+	margin: 0 auto;
+}
+
+.comic-date-header
+{
+	margin: 0 auto;
+	font-size:85%;
+	text-transform:uppercase;
+	letter-spacing:.2em;
+	color:#fff;
+}
+
+#comic-header
+{
+	height: 30px;
+	margin-bottom: 5px
+
+}
+
+#comic-header #rating
+{
+	display: block;
+	float: left;
+	font-weight: bold;
+	
+}
+
+#comic-header #rating img
+{
+	vertical-align: top;
+	margin-top: 5px;
+}
+
+#comic-header #rating b
+{
+	font-size: 120%;
+}
+
+#comic-header #rate
+{
+	display: inline;
+	float: right;
+}
+
+#comic-header #rate ul, #comic-header #rate li
+{
+	margin: 0;
+	padding: 0;
+	display: inline;
+}
+
+#comic-header #rate li
+{
+	list-style-type: none;
+}
+
+#comic-header #rate img
+{
+	margin: 0;
+	padding: 0;
+	display: block;
+	float: left;
+}
+
+#comic-header #rate #text
+{
+	margin: 4px 4px 0;
+}
+
+.comicnav
+{
+	background-color: #000066;
+	border: 2px outset #000000;
+	margin: 5px;
+	padding:5px;
+}
+
+.comicnav form
+{
+	display: inline;
+}
+
+.comicnav select
+{
+	margin: 0 0 25px 0;
+	
+}
+
+.comicnav img
+{
+	margin: 5px 5px 0 5px;
+	border: 0;
+}
+
+#comments_container
+{	
+	text-align: left;
+	margin: 0;
+	padding: 0;
+	padding-left: 8px;
+	padding-right: 8px;
+	width: 100%;
+
+}
+
+#comments_container h1
+{
+	font-weight: bold;
+}
+
+#comments_container h1 span
+{
+	float: right;
+}
+
+#comments_container .sub-title
+{	
+	clear: left;
+	font-size: 110%;
+	margin: 5px;
+}
+
+#comments_container .cpost-header, #comments_container p
+{	
+	clear: left;
+	font-size: 90%;
+}
+
+#comments_container .cpost-header
+{
+	border-bottom: 2px solid #000000;
+	color: #0080ff
+	padding: 5px;
+	margin: 0;
+}
+
+#comments_container p
+{
+	padding: 5px;
+	margin: 0;
+}
+
+#comments_container p img
+{
+	float: left;
+	margin: 0 5px 5px 0;
+}
+
+#comments_container p b
+{
+	font-size: 1.15em;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+.post-me
+{
+	clear: left;
+	margin: 0;
+	padding-top: 15px;
+	font-size: 1.4em;
+	text-align: center;
+}
+
+#menu
+{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 4px 2px 2px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+#menu ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#menu li
+{
+	padding: 0 0 0 0;
+	display: block;
+	list-style-type: none;
+	zoom: 1;
+	float: left;
+	margin-left: auto;
+	margin-right:auto;
+}
+
+#menu a:link, #menu a:visited
+{
+	font-size: .9em;
+	font-weight: bold;
+	text-decoration: none;
+	border: 4px ridge #0000CC;
+	border-bottom: 0px none #0080ff;
+	color: #fff;
+	padding: 5px;
+	display: block;
+	background-color: #0080ff;
+	white-space: nowrap;
+	width: 80px;
+	margin: 5px;
+}
+
+#menu a:hover
+{
+	background-color: #006;
+}
+
+/* Posts
+----------------------------------------------- */
+
+.date-header
+{
+	margin: 5px 10px 0;
+	float: right;
+	font-size:85%;
+	line-height:2em;
+	text-transform:uppercase;
+	letter-spacing:.2em;
+	color:#357;
+}
+
+.post
+{
+	margin:10px;
+	padding:0;
+	border:1px solid #000;
+	border-width:1px 0;
+	text-align: left;
+}
+
+.post-title
+{
+	margin:0;
+	font-size:135%;
+	line-height:1.5em;
+	background: #EFEFFF url("http://www.smackjeeves.com/templates/default/images/icon-arrow.gif") no-repeat 10px 50%;
+	display:block;
+	border: 2px solid #000;
+	border-width:0 1px 1px;
+	padding:2px 14px 2px 29px;
+	color:#333;
+}
+
+a.title-link, .post-title strong
+{
+	text-decoration:none;
+	display:block;
+}
+
+a.title-link:hover
+{
+	background-color:#ded;
+	color:#000;
+}
+
+.post-body
+{
+	border:1px solid #000;
+	border-width:0 1px 1px;
+	padding:10px 14px 1px 29px;
+}
+  
+html>body .post-body
+{
+	border-bottom-width:0;
+}
+  
+.post p
+{
+	margin:0 0 .75em;
+}
+
+p.post-footer
+{
+	background:#efefff;
+	margin:0;
+	padding:2px 14px 2px 29px;
+	border:1px solid #000;
+	border-width:1px;
+	border-bottom:1px solid #000;
+	font-size:100%;
+	line-height:1.5em;
+	color:#222;
+	text-align:right;
+}
+
+html>body p.post-footer
+{
+	border-bottom-color:transparent;
+}
+
+p.post-footer em
+{
+	display:block;
+	float:left;
+	text-align:left;
+	font-style:normal;
+}
+
+a.comment-link
+{
+	/* IE5.0/Win doesn't apply padding to inline elements,
+	 so we hide these two declarations from it */
+	background/* */:/**/url("http://www.blogblog.com/rounders/icon_comment.gif") no-repeat 0 45%;
+	padding-left:14px;
+}
+
+html>body a.comment-link
+{
+	/* Respecified, for IE5/Mac's benefit */
+	background:url("http://www.blogblog.com/rounders/icon_comment.gif") no-repeat 0 45%;
+	padding-left:14px;
+}
+
+.post img
+{
+	margin:0 0 5px 0;
+	padding:4px;
+	border:1px solid #ccc;
+}
+
+blockquote
+{
+	margin:.75em 0;
+	border:1px dotted #999;
+	border-width:1px 0;
+	padding:5px 15px;
+	color:#666;
+}
+
+.post blockquote p
+{
+	margin:.5em 0;
+}
